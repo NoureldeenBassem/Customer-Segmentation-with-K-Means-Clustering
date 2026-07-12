@@ -1,0 +1,42 @@
+[
+  {
+    "Cluster": 0,
+    "Age": 42.7,
+    "Annual Income (k$)": 55.3,
+    "Spending Score (1-100)": 49.5,
+    "Count": 81,
+    "Segment_Name": "Average Customers"
+  },
+  {
+    "Cluster": 1,
+    "Age": 32.7,
+    "Annual Income (k$)": 86.5,
+    "Spending Score (1-100)": 82.1,
+    "Count": 39,
+    "Segment_Name": "High Income, High Spenders"
+  },
+  {
+    "Cluster": 2,
+    "Age": 25.3,
+    "Annual Income (k$)": 25.7,
+    "Spending Score (1-100)": 79.4,
+    "Count": 22,
+    "Segment_Name": "Low Income, High Spenders"
+  },
+  {
+    "Cluster": 3,
+    "Age": 41.1,
+    "Annual Income (k$)": 88.2,
+    "Spending Score (1-100)": 17.1,
+    "Count": 35,
+    "Segment_Name": "High Income, Cautious Spenders"
+  },
+  {
+    "Cluster": 4,
+    "Age": 45.2,
+    "Annual Income (k$)": 26.3,
+    "Spending Score (1-100)": 20.9,
+    "Count": 23,
+    "Segment_Name": "Budget Conscious Customers"
+  }
+]
