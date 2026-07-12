@@ -14,10 +14,10 @@ PALETTE = ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00"]
 # ---- Load the saved pipeline, cluster profiles, and training data ----
 @st.cache_resource
 def load_artifacts():
-    pipeline = joblib.load("models/clustering_pipeline.pkl")
-    with open("models/cluster_profiles.json") as f:
+    pipeline = joblib.load("clustering_pipeline.pkl")
+    with open("cluster_profiles.json") as f:
         profiles = {p["Cluster"]: p for p in json.load(f)}
-    data = pd.read_csv("data/Mall_Customers.csv")
+    data = pd.read_csv("Mall_Customers.csv")
     data["Cluster"] = pipeline.predict(data[FEATURES])
     data["Segment"] = data["Cluster"].map(lambda c: profiles[c]["Segment_Name"])
     return pipeline, profiles, data
