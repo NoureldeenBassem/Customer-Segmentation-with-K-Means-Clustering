@@ -29,15 +29,5 @@ Unsupervised learning project that segments mall customers into meaningful group
 6. 💾 **Save Pipeline** — bundle scaling + K-Means into a single `Pipeline`, saved with `joblib`.
 7. 🚀 **Deploy** — a Streamlit app loads the saved pipeline, takes new customer input, and predicts their labeled segment.
 
-## ▶️ Running the App Locally
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-The app will open at `http://localhost:8501` 🌐.
-
----
-
-<p align="center">Built with ❤️ by <b>Noureldin Bassem</b> — Computer & AI Engineer 🤖</p>
+<p align="center">Built by <b>Noureldin Bassem</b> — Computer & AI Engineer 🤖</p>
