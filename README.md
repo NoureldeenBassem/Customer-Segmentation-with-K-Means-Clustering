@@ -30,4 +30,4 @@ Unsupervised learning project that segments mall customers into meaningful group
 7. 🚀 **Deploy** — a Streamlit app loads the saved pipeline, takes new customer input, and predicts their labeled segment.
 
 
-<p align="center">Built by <b>Noureldin Bassem</b> — Computer & AI Engineer 🤖</p>
+<p align="center">Built by <b>Noureldin Bassem</b> — Computer & AI Engineer</p>
